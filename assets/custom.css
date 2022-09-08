@@ -33,3 +33,29 @@ p{
 h5{
     margin: 8px 0px 0px 0px;
 }
+.article--bg{
+    background-color: hsl(300, 43%, 22%);
+}
+.article__header{
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    width: 100%;
+}
+.article__address{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+}
+.article__address--font{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+.article__verified{
+    color: hsl(333, 80%, 67%);
+    font-weight: 500;
+}
+.people{
+    border-radius: 50%;
+}
