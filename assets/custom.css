@@ -23,8 +23,6 @@ p{
     color:hsl(303, 10%, 53%);
 }
 .cards__stars{
-    background-image: url("../images/icon-star.svg");
-    background-repeat:repeat-x;
     background-color: hsl(300, 24%, 96%);
     height: auto;
     width: auto;
@@ -33,5 +31,5 @@ p{
     margin: 15px 0px;
 }
 h5{
-    margin: 5px 0px 0px 0px;
+    margin: 8px 0px 0px 0px;
 }
