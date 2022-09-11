@@ -1,10 +1,36 @@
 body{
     font-family: 'League Spartan', sans-serif;
-
+    
 }
 h1 ,h5{
     font-weight: 700;
     color: hsl(300, 43%, 22%);
+}
+.bg--top{
+    width: 374px;
+    height: 232px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background: url(/images/bg-pattern-top-mobile.svg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+.bg--bottom{
+    width: 374px;
+    height: 232px;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+    background: url(/images/bg-pattern-bottom-mobile.svg);
+    background-attachment: scroll;
+    background-repeat: no-repeat;
 }
 .content{
     width: 70vw;
