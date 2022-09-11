@@ -30,6 +30,9 @@ h1 ,h5{
 h5{
     margin: 8px 0px 0px 0px;
 }
+#firstArticle{
+    margin-top: 40px;
+}
 .article--bg{
     background-color: hsl(300, 43%, 22%);
     padding: 20px;
