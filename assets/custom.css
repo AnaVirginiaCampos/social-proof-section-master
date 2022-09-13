@@ -98,3 +98,56 @@ h5{
     height: 40px;
     margin-right: 20px;
 }
+
+/* RESPONSIVE */
+@media only screen and (min-width: 913px) {
+    h1{
+        font-size: 60px;
+        margin-bottom: 25px;
+    }
+    .header__text{
+        margin-top: 0;
+    }
+    .content__title{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .content__title--header{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        text-align: left;
+    }
+    .content__title--main{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    h5{
+        margin: 0px;
+    }
+    .cards__stars{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 20px;
+    }
+    .cards__stars--img{
+        margin-right: 0px;
+    }
+    .card__one{
+        margin-right: 80px;
+    }
+    .card__two{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .card__three{
+        margin-left: 80px;
+    }
+    .icon_star{
+        float: left;
+    }
+}
