@@ -101,6 +101,11 @@ h5{
 
 /* RESPONSIVE */
 @media only screen and (min-width: 913px) {
+    .bg--top{
+        width: 584px;
+        height: 362px;
+        background: url(/images/bg-pattern-top-desktop.svg);
+    }
     h1{
         font-size: 60px;
         margin-bottom: 25px;
@@ -126,6 +131,7 @@ h5{
     }
     h5{
         margin: 0px;
+        font-size: 15px;
     }
     .cards__stars{
         display: flex;
@@ -149,5 +155,6 @@ h5{
     }
     .icon_star{
         float: left;
+        margin:4px;
     }
 }
