@@ -41,6 +41,9 @@ h1 ,h5{
     align-items: center;
     text-align: center;
 }
+.content_articles{
+    display: block;
+}
 .header__text{
     font-weight: 400;
     color:hsl(303, 10%, 53%);
@@ -156,5 +159,36 @@ h5{
     .icon_star{
         float: left;
         margin:4px;
+    }
+    .content_articles{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: top;
+        height: 180px;
+    }
+    .article--bg{
+        width: 25%;
+        margin-top: 0px;
+        padding: 25px;
+        height: 150px;
+    }
+    #firstArticle{
+        margin-top: 0px;
+    }
+    #secondArticle{
+        margin-top: 15px;
+    }
+    #thirdArticle{
+        margin-top: 30px;
+    }
+    .bg--bottom{
+        width: 1085px;
+        height: 673px;
+        margin: 0 0 0 24%;
+        padding: 0;
+        z-index: -10000;
+        top: 110px;
+        background: url(/images/bg-pattern-bottom-desktop.svg);
     }
 }
