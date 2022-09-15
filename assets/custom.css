@@ -185,7 +185,7 @@ h5{
     .bg--bottom{
         width: 1085px;
         height: 673px;
-        margin: 0 0 0 24%;
+        margin-left: 24%;
         padding: 0;
         z-index: -10000;
         top: 110px;
